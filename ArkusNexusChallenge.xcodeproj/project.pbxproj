@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764F451A8B08269A9FF22895 /* Pods_ArkusNexusChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D506E90650D80BBF2EAAC965 /* Pods_ArkusNexusChallenge.framework */; };
+		9444D4F622B194D500FFBC26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F522B194D500FFBC26 /* AppDelegate.swift */; };
+		9444D4F822B194D500FFBC26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F722B194D500FFBC26 /* ViewController.swift */; };
+		9444D4FB22B194D500FFBC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4F922B194D500FFBC26 /* Main.storyboard */; };
+		9444D4FD22B194DB00FFBC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FC22B194DB00FFBC26 /* Assets.xcassets */; };
+		9444D50022B194DB00FFBC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */; };
+		94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBB22B1D570003D2BCD /* PlaceModel.swift */; };
+		94C31BBF22B1E5C1003D2BCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBE22B1E5C1003D2BCD /* Constants.swift */; };
+		94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BC122B1E919003D2BCD /* APIUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		751F8D91FDC088D3CACABD4B /* Pods-ArkusNexusChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusNexusChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArkusNexusChallenge/Pods-ArkusNexusChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		9444D4F222B194D500FFBC26 /* ArkusNexusChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusNexusChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9444D4F522B194D500FFBC26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9444D4F722B194D500FFBC26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9444D4FA22B194D500FFBC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9444D4FC22B194DB00FFBC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9444D4FF22B194DB00FFBC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9444D50122B194DB00FFBC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C31BBB22B1D570003D2BCD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		94C31BBE22B1E5C1003D2BCD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		94C31BC122B1E919003D2BCD /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
+		C2F6A7A68E37C910804423DF /* Pods-ArkusNexusChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusNexusChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArkusNexusChallenge/Pods-ArkusNexusChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		D506E90650D80BBF2EAAC965 /* Pods_ArkusNexusChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkusNexusChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9444D4EF22B194D500FFBC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764F451A8B08269A9FF22895 /* Pods_ArkusNexusChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD40556758D3063F2C0DD2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D506E90650D80BBF2EAAC965 /* Pods_ArkusNexusChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F2E0DEA0D5AC4352863A0C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				751F8D91FDC088D3CACABD4B /* Pods-ArkusNexusChallenge.debug.xcconfig */,
+				C2F6A7A68E37C910804423DF /* Pods-ArkusNexusChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9444D4E922B194D500FFBC26 = {
+			isa = PBXGroup;
+			children = (
+				9444D4F422B194D500FFBC26 /* ArkusNexusChallenge */,
+				9444D4F322B194D500FFBC26 /* Products */,
+				7F2E0DEA0D5AC4352863A0C9 /* Pods */,
+				1CD40556758D3063F2C0DD2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9444D4F322B194D500FFBC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9444D4F222B194D500FFBC26 /* ArkusNexusChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9444D4F422B194D500FFBC26 /* ArkusNexusChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				94C31BC022B1E8F4003D2BCD /* Utils */,
+				94C31BBD22B1E58C003D2BCD /* Config */,
+				9444D50722B197E100FFBC26 /* Core */,
+				9444D4F522B194D500FFBC26 /* AppDelegate.swift */,
+				9444D4F722B194D500FFBC26 /* ViewController.swift */,
+				9444D4F922B194D500FFBC26 /* Main.storyboard */,
+				9444D4FC22B194DB00FFBC26 /* Assets.xcassets */,
+				9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */,
+				9444D50122B194DB00FFBC26 /* Info.plist */,
+			);
+			path = ArkusNexusChallenge;
+			sourceTree = "<group>";
+		};
+		9444D50722B197E100FFBC26 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9444D50822B197FE00FFBC26 /* Model */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9444D50822B197FE00FFBC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94C31BBB22B1D570003D2BCD /* PlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94C31BBD22B1E58C003D2BCD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				94C31BBE22B1E5C1003D2BCD /* Constants.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		94C31BC022B1E8F4003D2BCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				94C31BC122B1E919003D2BCD /* APIUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9444D4F122B194D500FFBC26 /* ArkusNexusChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9444D50422B194DB00FFBC26 /* Build configuration list for PBXNativeTarget "ArkusNexusChallenge" */;
+			buildPhases = (
+				B2C5E5C2B810EACCA4426DC0 /* [CP] Check Pods Manifest.lock */,
+				9444D4EE22B194D500FFBC26 /* Sources */,
+				9444D4EF22B194D500FFBC26 /* Frameworks */,
+				9444D4F022B194D500FFBC26 /* Resources */,
+				F5AB49BFE742EE7E95EADA14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArkusNexusChallenge;
+			productName = ArkusNexusTest;
+			productReference = 9444D4F222B194D500FFBC26 /* ArkusNexusChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9444D4EA22B194D500FFBC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = guerra;
+				TargetAttributes = {
+					9444D4F122B194D500FFBC26 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9444D4ED22B194D500FFBC26 /* Build configuration list for PBXProject "ArkusNexusChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9444D4E922B194D500FFBC26;
+			productRefGroup = 9444D4F322B194D500FFBC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9444D4F122B194D500FFBC26 /* ArkusNexusChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9444D4F022B194D500FFBC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444D50022B194DB00FFBC26 /* LaunchScreen.storyboard in Resources */,
+				9444D4FD22B194DB00FFBC26 /* Assets.xcassets in Resources */,
+				9444D4FB22B194D500FFBC26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2C5E5C2B810EACCA4426DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkusNexusChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AB49BFE742EE7E95EADA14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArkusNexusChallenge/Pods-ArkusNexusChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArkusNexusChallenge/Pods-ArkusNexusChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9444D4EE22B194D500FFBC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444D4F822B194D500FFBC26 /* ViewController.swift in Sources */,
+				94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */,
+				94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */,
+				9444D4F622B194D500FFBC26 /* AppDelegate.swift in Sources */,
+				94C31BBF22B1E5C1003D2BCD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9444D4F922B194D500FFBC26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9444D4FA22B194D500FFBC26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9444D4FF22B194DB00FFBC26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9444D50222B194DB00FFBC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9444D50322B194DB00FFBC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9444D50522B194DB00FFBC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751F8D91FDC088D3CACABD4B /* Pods-ArkusNexusChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKMTJ2P89J;
+				INFOPLIST_FILE = ArkusNexusTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guerra.ArkusNexusChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9444D50622B194DB00FFBC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F6A7A68E37C910804423DF /* Pods-ArkusNexusChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKMTJ2P89J;
+				INFOPLIST_FILE = ArkusNexusTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guerra.ArkusNexusChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9444D4ED22B194D500FFBC26 /* Build configuration list for PBXProject "ArkusNexusChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444D50222B194DB00FFBC26 /* Debug */,
+				9444D50322B194DB00FFBC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9444D50422B194DB00FFBC26 /* Build configuration list for PBXNativeTarget "ArkusNexusChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444D50522B194DB00FFBC26 /* Debug */,
+				9444D50622B194DB00FFBC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9444D4EA22B194D500FFBC26 /* Project object */;
+}
