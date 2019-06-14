@@ -12,16 +12,16 @@
 		94326BF422B2DA2F00D56D52 /* ArkusNexusServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326BF322B2DA2F00D56D52 /* ArkusNexusServer.swift */; };
 		94326BF622B2DD7300D56D52 /* RxAlamofireUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326BF522B2DD7300D56D52 /* RxAlamofireUtils.swift */; };
 		94326BF822B2E39800D56D52 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326BF722B2E39800D56D52 /* ErrorModel.swift */; };
-		94326C0622B2ECE300D56D52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94326C0422B2ECE200D56D52 /* Localizable.strings */; };
 		94326C0C22B2F08900D56D52 /* SuccessMessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326C0B22B2F08900D56D52 /* SuccessMessageResponse.swift */; };
 		94326C0E22B2F4B300D56D52 /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326C0D22B2F4B300D56D52 /* EmptyResponse.swift */; };
 		94326C1022B31A6000D56D52 /* PlaceServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326C0F22B31A6000D56D52 /* PlaceServer.swift */; };
 		9444D4F622B194D500FFBC26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F522B194D500FFBC26 /* AppDelegate.swift */; };
 		9444D4F822B194D500FFBC26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F722B194D500FFBC26 /* ViewController.swift */; };
-		9444D4FB22B194D500FFBC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4F922B194D500FFBC26 /* Main.storyboard */; };
 		9444D4FD22B194DB00FFBC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FC22B194DB00FFBC26 /* Assets.xcassets */; };
-		9444D50022B194DB00FFBC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */; };
 		9476930A22B3213600572511 /* GetPlacesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476930922B3213600572511 /* GetPlacesInteractor.swift */; };
+		94A979BA22B3419600603885 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A979BC22B3419600603885 /* Localizable.strings */; };
+		94A979BF22B341B300603885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A979BD22B341B200603885 /* LaunchScreen.storyboard */; };
+		94A979C022B341B300603885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A979BE22B341B200603885 /* Main.storyboard */; };
 		94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBB22B1D570003D2BCD /* PlaceModel.swift */; };
 		94C31BBF22B1E5C1003D2BCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBE22B1E5C1003D2BCD /* Constants.swift */; };
 		94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BC122B1E919003D2BCD /* APIUtils.swift */; };
@@ -33,21 +33,18 @@
 		94326BF322B2DA2F00D56D52 /* ArkusNexusServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkusNexusServer.swift; sourceTree = "<group>"; };
 		94326BF522B2DD7300D56D52 /* RxAlamofireUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireUtils.swift; sourceTree = "<group>"; };
 		94326BF722B2E39800D56D52 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
-		94326C0522B2ECE200D56D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = ArkusNexusChallenge/Base.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
-		94326C0722B2ED1700D56D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		94326C0822B2ED1800D56D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		94326C0B22B2F08900D56D52 /* SuccessMessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessMessageResponse.swift; sourceTree = "<group>"; };
 		94326C0D22B2F4B300D56D52 /* EmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
 		94326C0F22B31A6000D56D52 /* PlaceServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceServer.swift; sourceTree = "<group>"; };
 		9444D4F222B194D500FFBC26 /* ArkusNexusChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusNexusChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9444D4F522B194D500FFBC26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9444D4F722B194D500FFBC26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9444D4FA22B194D500FFBC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9444D4FC22B194DB00FFBC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9444D4FF22B194DB00FFBC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9444D50122B194DB00FFBC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9476930922B3213600572511 /* GetPlacesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlacesInteractor.swift; sourceTree = "<group>"; };
-		94A979B022B327D000603885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94A979BB22B3419600603885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		94A979BD22B341B200603885 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94A979BE22B341B200603885 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		94C31BBB22B1D570003D2BCD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		94C31BBE22B1E5C1003D2BCD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		94C31BC122B1E919003D2BCD /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
@@ -114,9 +111,9 @@
 		94326C0322B2ECBE00D56D52 /* Resousrces */ = {
 			isa = PBXGroup;
 			children = (
-				94326C0422B2ECE200D56D52 /* Localizable.strings */,
+				94A979BC22B3419600603885 /* Localizable.strings */,
 			);
-			name = Resousrces;
+			path = Resousrces;
 			sourceTree = "<group>";
 		};
 		94326C0A22B2F07B00D56D52 /* Responses */ = {
@@ -149,6 +146,7 @@
 		9444D4F422B194D500FFBC26 /* ArkusNexusChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				94A979B222B33F6B00603885 /* UserInterface */,
 				94326C0322B2ECBE00D56D52 /* Resousrces */,
 				94326BEE22B2CF3C00D56D52 /* Server */,
 				94C31BC022B1E8F4003D2BCD /* Utils */,
@@ -156,9 +154,7 @@
 				9444D50722B197E100FFBC26 /* Core */,
 				9444D4F522B194D500FFBC26 /* AppDelegate.swift */,
 				9444D4F722B194D500FFBC26 /* ViewController.swift */,
-				9444D4F922B194D500FFBC26 /* Main.storyboard */,
 				9444D4FC22B194DB00FFBC26 /* Assets.xcassets */,
-				9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */,
 				9444D50122B194DB00FFBC26 /* Info.plist */,
 			);
 			path = ArkusNexusChallenge;
@@ -196,6 +192,23 @@
 				9476930922B3213600572511 /* GetPlacesInteractor.swift */,
 			);
 			path = Places;
+			sourceTree = "<group>";
+		};
+		94A979B222B33F6B00603885 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				94A979B322B33F8300603885 /* Storyboards */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		94A979B322B33F8300603885 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				94A979BD22B341B200603885 /* LaunchScreen.storyboard */,
+				94A979BE22B341B200603885 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		94C31BBD22B1E58C003D2BCD /* Config */ = {
@@ -275,10 +288,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9444D50022B194DB00FFBC26 /* LaunchScreen.storyboard in Resources */,
-				94326C0622B2ECE300D56D52 /* Localizable.strings in Resources */,
+				94A979BF22B341B300603885 /* LaunchScreen.storyboard in Resources */,
 				9444D4FD22B194DB00FFBC26 /* Assets.xcassets in Resources */,
-				9444D4FB22B194D500FFBC26 /* Main.storyboard in Resources */,
+				94A979BA22B3419600603885 /* Localizable.strings in Resources */,
+				94A979C022B341B300603885 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,31 +382,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		94326C0422B2ECE200D56D52 /* Localizable.strings */ = {
+		94A979BC22B3419600603885 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94326C0522B2ECE200D56D52 /* Base */,
-				94A979B022B327D000603885 /* en */,
+				94A979BB22B3419600603885 /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		9444D4F922B194D500FFBC26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9444D4FA22B194D500FFBC26 /* Base */,
-				94326C0722B2ED1700D56D52 /* en */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9444D4FF22B194DB00FFBC26 /* Base */,
-				94326C0822B2ED1800D56D52 /* en */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
