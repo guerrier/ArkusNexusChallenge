@@ -21,6 +21,7 @@
 		9444D4FB22B194D500FFBC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4F922B194D500FFBC26 /* Main.storyboard */; };
 		9444D4FD22B194DB00FFBC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FC22B194DB00FFBC26 /* Assets.xcassets */; };
 		9444D50022B194DB00FFBC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FE22B194DB00FFBC26 /* LaunchScreen.storyboard */; };
+		9476930A22B3213600572511 /* GetPlacesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476930922B3213600572511 /* GetPlacesInteractor.swift */; };
 		94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBB22B1D570003D2BCD /* PlaceModel.swift */; };
 		94C31BBF22B1E5C1003D2BCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBE22B1E5C1003D2BCD /* Constants.swift */; };
 		94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BC122B1E919003D2BCD /* APIUtils.swift */; };
@@ -35,7 +36,6 @@
 		94326C0522B2ECE200D56D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = ArkusNexusChallenge/Base.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		94326C0722B2ED1700D56D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		94326C0822B2ED1800D56D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		94326C0922B2ED1800D56D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94326C0B22B2F08900D56D52 /* SuccessMessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessMessageResponse.swift; sourceTree = "<group>"; };
 		94326C0D22B2F4B300D56D52 /* EmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
 		94326C0F22B31A6000D56D52 /* PlaceServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceServer.swift; sourceTree = "<group>"; };
@@ -46,6 +46,8 @@
 		9444D4FC22B194DB00FFBC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9444D4FF22B194DB00FFBC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9444D50122B194DB00FFBC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9476930922B3213600572511 /* GetPlacesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlacesInteractor.swift; sourceTree = "<group>"; };
+		94A979B022B327D000603885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94C31BBB22B1D570003D2BCD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		94C31BBE22B1E5C1003D2BCD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		94C31BC122B1E919003D2BCD /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 		9444D50722B197E100FFBC26 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9476930722B3211700572511 /* Interactor */,
 				9444D50822B197FE00FFBC26 /* Model */,
 			);
 			path = Core;
@@ -177,6 +180,22 @@
 				94326BF722B2E39800D56D52 /* ErrorModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9476930722B3211700572511 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9476930822B3212000572511 /* Places */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9476930822B3212000572511 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				9476930922B3213600572511 /* GetPlacesInteractor.swift */,
+			);
+			path = Places;
 			sourceTree = "<group>";
 		};
 		94C31BBD22B1E58C003D2BCD /* Config */ = {
@@ -333,6 +352,7 @@
 			files = (
 				9444D4F822B194D500FFBC26 /* ViewController.swift in Sources */,
 				94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */,
+				9476930A22B3213600572511 /* GetPlacesInteractor.swift in Sources */,
 				94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */,
 				94326BF122B2D43800D56D52 /* PlaceAPIRouter.swift in Sources */,
 				94326BF622B2DD7300D56D52 /* RxAlamofireUtils.swift in Sources */,
@@ -353,7 +373,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				94326C0522B2ECE200D56D52 /* Base */,
-				94326C0922B2ED1800D56D52 /* en */,
+				94A979B022B327D000603885 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

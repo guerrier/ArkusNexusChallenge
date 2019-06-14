@@ -13,7 +13,7 @@ import Alamofire
 import ObjectMapper
 
 class PlaceServer {
-    func getplaces() -> Observable<PlaceModel> {
-        return ArkusNexusServer<PlaceModel>().request(PlaceAPIRouter.getPlaces)
+    func getplaces() -> Observable<[PlaceModel]> {
+        return ArkusNexusServer<PlaceModel>().arrayRequest(PlaceAPIRouter.getPlaces)
     }
 }
