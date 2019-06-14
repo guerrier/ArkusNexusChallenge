@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ArkusNexusChallenge
+
+  Created by guerrier on 6/13/19.
+  Copyright © 2019 guerra. All rights reserved.
+*/
+
+//General messages
+"generic-error-try-later" = "Ocurrio un error, favor de intentarlo más tarde.";
+"generic-error-parse-response" = "Ocurrio un error, favor de intentarlo más tarde.";
+"error-not-authorized" = "Ocurrio un error, favor de intentarlo más tarde.";
+"error" = "Error";

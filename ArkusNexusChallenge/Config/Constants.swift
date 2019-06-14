@@ -14,6 +14,6 @@ struct Constants {
     static let LocalizableFileName: String = "Localizable"
     
     struct ArkusNexusAPI {
-        static let baseApiURL: String = "http://www.mocky.io/v2"
+        static let BaseApiURL: String = "http://www.mocky.io"
     }
 }
