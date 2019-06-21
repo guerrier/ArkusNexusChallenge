@@ -10,5 +10,6 @@ target 'ArkusNexusChallenge' do
     pod 'RxCocoa'
     pod 'RxSwift'
     pod 'Localize'
+    pod 'HCSStarRatingView'
   
 end

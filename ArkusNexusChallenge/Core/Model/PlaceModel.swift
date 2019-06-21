@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class PlaceModel: Mappable, CustomStringConvertible {
+public class PlaceModel: Mappable, CustomStringConvertible {
     
     var placeId:String      = ""
     var placeName:String    = ""
@@ -19,18 +19,19 @@ class PlaceModel: Mappable, CustomStringConvertible {
     var latitude:Double     = 0.0
     var longitude:Double    = 0.0
     var thumbnail:String    = ""
-    var rating:Double       = 0.0
+    var rating:Float       = 0.0
     var isPetFriendly:Bool  = false
     var addressLine1:String = ""
     var addressLine2:String = ""
     var phoneNumber:String  = ""
     var site:String         = ""
+    var distance:Double     = 0.0
     
-    required init?(map: Map) {
+    required public init?(map: Map) {
         
     }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         placeId         <- map["PlaceId"]
         placeName       <- map["PlaceName"]
         address         <- map["Address"]
@@ -47,7 +48,7 @@ class PlaceModel: Mappable, CustomStringConvertible {
         site            <- map["Site"]
     }
     
-    var description: String {
+    public var description: String {
         return  "PlaceModel: {PlaceID: \(placeId), PlaceName: \(placeName), Address: \(address), IsOpenNow: \(isOpenNow), Rating: \(rating), IsPetFriendly: \(isPetFriendly), PhoneNumer: \(phoneNumber)}"
     }
 }

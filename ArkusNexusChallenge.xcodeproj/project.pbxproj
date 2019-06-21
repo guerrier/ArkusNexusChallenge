@@ -16,12 +16,20 @@
 		94326C0E22B2F4B300D56D52 /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326C0D22B2F4B300D56D52 /* EmptyResponse.swift */; };
 		94326C1022B31A6000D56D52 /* PlaceServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94326C0F22B31A6000D56D52 /* PlaceServer.swift */; };
 		9444D4F622B194D500FFBC26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F522B194D500FFBC26 /* AppDelegate.swift */; };
-		9444D4F822B194D500FFBC26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F722B194D500FFBC26 /* ViewController.swift */; };
+		9444D4F822B194D500FFBC26 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444D4F722B194D500FFBC26 /* WebViewController.swift */; };
 		9444D4FD22B194DB00FFBC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9444D4FC22B194DB00FFBC26 /* Assets.xcassets */; };
 		9476930A22B3213600572511 /* GetPlacesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476930922B3213600572511 /* GetPlacesInteractor.swift */; };
+		947CA84622BCB36D0022CEE5 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CA84522BCB36D0022CEE5 /* ImageUtils.swift */; };
+		947CA84922BCC3AD0022CEE5 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CA84822BCC3AD0022CEE5 /* PlacesTableViewController.swift */; };
+		947CA84C22BCC64E0022CEE5 /* PlacesViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CA84B22BCC64E0022CEE5 /* PlacesViewPresenter.swift */; };
+		947CA84E22BCD01E0022CEE5 /* PlaceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CA84D22BCD01E0022CEE5 /* PlaceUtils.swift */; };
+		947CA85022BCEA010022CEE5 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CA84F22BCEA010022CEE5 /* PlaceDetailView.swift */; };
+		947CA85222BCF2F20022CEE5 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CA85122BCF2F20022CEE5 /* PlaceDetailViewController.swift */; };
 		94A979BA22B3419600603885 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94A979BC22B3419600603885 /* Localizable.strings */; };
 		94A979BF22B341B300603885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A979BD22B341B200603885 /* LaunchScreen.storyboard */; };
 		94A979C022B341B300603885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A979BE22B341B200603885 /* Main.storyboard */; };
+		94A979C322B3450B00603885 /* PlaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A979C222B3450B00603885 /* PlaceViewCell.swift */; };
+		94B8305A22BD19D60082DD84 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B8305922BD19D50082DD84 /* WebKit.framework */; };
 		94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBB22B1D570003D2BCD /* PlaceModel.swift */; };
 		94C31BBF22B1E5C1003D2BCD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BBE22B1E5C1003D2BCD /* Constants.swift */; };
 		94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31BC122B1E919003D2BCD /* APIUtils.swift */; };
@@ -38,13 +46,21 @@
 		94326C0F22B31A6000D56D52 /* PlaceServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceServer.swift; sourceTree = "<group>"; };
 		9444D4F222B194D500FFBC26 /* ArkusNexusChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusNexusChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9444D4F522B194D500FFBC26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9444D4F722B194D500FFBC26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9444D4F722B194D500FFBC26 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		9444D4FC22B194DB00FFBC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9444D50122B194DB00FFBC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9476930922B3213600572511 /* GetPlacesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlacesInteractor.swift; sourceTree = "<group>"; };
+		947CA84522BCB36D0022CEE5 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		947CA84822BCC3AD0022CEE5 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		947CA84B22BCC64E0022CEE5 /* PlacesViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewPresenter.swift; sourceTree = "<group>"; };
+		947CA84D22BCD01E0022CEE5 /* PlaceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceUtils.swift; sourceTree = "<group>"; };
+		947CA84F22BCEA010022CEE5 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		947CA85122BCF2F20022CEE5 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 		94A979BB22B3419600603885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94A979BD22B341B200603885 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A979BE22B341B200603885 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		94A979C222B3450B00603885 /* PlaceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewCell.swift; sourceTree = "<group>"; };
+		94B8305922BD19D50082DD84 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		94C31BBB22B1D570003D2BCD /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		94C31BBE22B1E5C1003D2BCD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		94C31BC122B1E919003D2BCD /* APIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B8305A22BD19D60082DD84 /* WebKit.framework in Frameworks */,
 				764F451A8B08269A9FF22895 /* Pods_ArkusNexusChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +84,7 @@
 		1CD40556758D3063F2C0DD2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94B8305922BD19D50082DD84 /* WebKit.framework */,
 				D506E90650D80BBF2EAAC965 /* Pods_ArkusNexusChallenge.framework */,
 			);
 			name = Frameworks;
@@ -111,6 +129,7 @@
 		94326C0322B2ECBE00D56D52 /* Resousrces */ = {
 			isa = PBXGroup;
 			children = (
+				9444D4FC22B194DB00FFBC26 /* Assets.xcassets */,
 				94A979BC22B3419600603885 /* Localizable.strings */,
 			);
 			path = Resousrces;
@@ -153,8 +172,6 @@
 				94C31BBD22B1E58C003D2BCD /* Config */,
 				9444D50722B197E100FFBC26 /* Core */,
 				9444D4F522B194D500FFBC26 /* AppDelegate.swift */,
-				9444D4F722B194D500FFBC26 /* ViewController.swift */,
-				9444D4FC22B194DB00FFBC26 /* Assets.xcassets */,
 				9444D50122B194DB00FFBC26 /* Info.plist */,
 			);
 			path = ArkusNexusChallenge;
@@ -194,9 +211,30 @@
 			path = Places;
 			sourceTree = "<group>";
 		};
+		947CA84722BCC3940022CEE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				947CA84A22BCC3E20022CEE5 /* Places */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		947CA84A22BCC3E20022CEE5 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				947CA84822BCC3AD0022CEE5 /* PlacesTableViewController.swift */,
+				947CA84B22BCC64E0022CEE5 /* PlacesViewPresenter.swift */,
+				947CA85122BCF2F20022CEE5 /* PlaceDetailViewController.swift */,
+				9444D4F722B194D500FFBC26 /* WebViewController.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
 		94A979B222B33F6B00603885 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				947CA84722BCC3940022CEE5 /* Controllers */,
+				94A979C122B344E000603885 /* Views */,
 				94A979B322B33F8300603885 /* Storyboards */,
 			);
 			path = UserInterface;
@@ -209,6 +247,15 @@
 				94A979BE22B341B200603885 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		94A979C122B344E000603885 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94A979C222B3450B00603885 /* PlaceViewCell.swift */,
+				947CA84F22BCEA010022CEE5 /* PlaceDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		94C31BBD22B1E58C003D2BCD /* Config */ = {
@@ -224,6 +271,8 @@
 			children = (
 				94C31BC122B1E919003D2BCD /* APIUtils.swift */,
 				94326BF522B2DD7300D56D52 /* RxAlamofireUtils.swift */,
+				947CA84522BCB36D0022CEE5 /* ImageUtils.swift */,
+				947CA84D22BCD01E0022CEE5 /* PlaceUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -331,6 +380,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ArkusNexusChallenge/Pods-ArkusNexusChallenge-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
@@ -344,6 +394,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
@@ -363,17 +414,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9444D4F822B194D500FFBC26 /* ViewController.swift in Sources */,
+				9444D4F822B194D500FFBC26 /* WebViewController.swift in Sources */,
 				94C31BC222B1E919003D2BCD /* APIUtils.swift in Sources */,
 				9476930A22B3213600572511 /* GetPlacesInteractor.swift in Sources */,
 				94C31BBC22B1D570003D2BCD /* PlaceModel.swift in Sources */,
 				94326BF122B2D43800D56D52 /* PlaceAPIRouter.swift in Sources */,
+				947CA84E22BCD01E0022CEE5 /* PlaceUtils.swift in Sources */,
+				947CA85022BCEA010022CEE5 /* PlaceDetailView.swift in Sources */,
 				94326BF622B2DD7300D56D52 /* RxAlamofireUtils.swift in Sources */,
 				94326C0E22B2F4B300D56D52 /* EmptyResponse.swift in Sources */,
 				9444D4F622B194D500FFBC26 /* AppDelegate.swift in Sources */,
+				947CA84622BCB36D0022CEE5 /* ImageUtils.swift in Sources */,
+				947CA84922BCC3AD0022CEE5 /* PlacesTableViewController.swift in Sources */,
 				94326BF822B2E39800D56D52 /* ErrorModel.swift in Sources */,
 				94326C1022B31A6000D56D52 /* PlaceServer.swift in Sources */,
+				947CA84C22BCC64E0022CEE5 /* PlacesViewPresenter.swift in Sources */,
+				94A979C322B3450B00603885 /* PlaceViewCell.swift in Sources */,
 				94C31BBF22B1E5C1003D2BCD /* Constants.swift in Sources */,
+				947CA85222BCF2F20022CEE5 /* PlaceDetailViewController.swift in Sources */,
 				94326C0C22B2F08900D56D52 /* SuccessMessageResponse.swift in Sources */,
 				94326BF422B2DA2F00D56D52 /* ArkusNexusServer.swift in Sources */,
 			);
